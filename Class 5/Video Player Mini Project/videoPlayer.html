@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Player with URL Input</title>
+    <link rel="stylesheet" href="videoPlayer.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Player</h1>
+        <input type="text" id="videoUrl" placeholder="Enter YouTube video URL">
+        <button id="loadVideoButton">Load Video</button>
+        
+        <div class="video-container">
+            <div id="player"></div>
+        </div>
+
+        <div class="controls">
+            <button id="playButton">Play</button>
+            <button id="pauseButton">Pause</button>
+            <button id="stopButton">Stop</button>
+            <p>Time: <span id="currentTime">0</span> / <span id="duration">0</span></p>
+        </div>
+    </div>
+
+    <script src="videoPlayer.js"></script>
+</body>
+</html>
+
+
+
+
